@@ -1,0 +1,29 @@
+/* responsive.css */
+/* desktop 768 ~ 1920 */
+/* tablet 320 ~ 767 */
+@media screen and (max-width:600px){
+    main .container > .card > .thum {
+        width:600px;
+        height: 353px;
+        margin-top:50px;
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: space-between;
+    }
+    main .container > .card > .thum img:last-child {display: none;}
+    main .container .card > .contents {
+        width: 600px;
+    }
+    main .container_btm {    
+        display: flex;
+        flex-flow:column wrap;
+        justify-content: space-between;
+        gap:20px;
+    }
+    main .container_btm .card .contents p {
+        width: 600px;
+    }
+    footer .footer_wrap {
+        width: 100%;
+    }
+}
